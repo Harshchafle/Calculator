@@ -1,6 +1,6 @@
 let input = document.getElementById('screen');
 let button = document.querySelectorAll('button');
-let string = "";
+let string = "";  //initial empty String
 let arr = Array.from(button);
 arr.forEach(button => {
     button.addEventListener('click',(e) =>{
